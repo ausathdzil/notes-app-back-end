@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 5000;
 const host = process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0';
 
 app.get('/', (req, res) => {
